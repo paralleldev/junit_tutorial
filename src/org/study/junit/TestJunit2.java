@@ -10,7 +10,7 @@ public class TestJunit2 {
    @Test
    public void testSalutationMessage() {
       System.out.println("Inside testSalutationMessage()");
-      message = "Hi!" + "Robert";
+      message = "Hi!" + "Robert Miller";
       Assert.assertEquals(message,messageUtil.salutationMessage());
    }
 }
