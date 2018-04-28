@@ -5,12 +5,12 @@ import org.junit.Test;
 
 public class TestJunit1 {
 
-	String message = "Robert";
+	String message = "Robert Miller";
 	MessageUtil messageUtil = new MessageUtil(message);
-	
+
 	@Test
-	public void testPrintMessage() {	
-		System.out.println("Inside testPrintMessage()");    
-		Assert.assertEquals(message, messageUtil.printMessage());     
+	public void testPrintMessage() {
+		System.out.println("Inside testPrintMessage()");
+		Assert.assertEquals(message, messageUtil.printMessage());
 	}
 }
