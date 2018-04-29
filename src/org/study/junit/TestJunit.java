@@ -7,7 +7,7 @@ public class TestJunit {
 
 	@Test
 	public void testAdd() {
-		String str = "Junit is not working fine";
+		String str = "Junit is working fine";
 		Assert.assertEquals("Junit is working fine", str);
 	}
 }
